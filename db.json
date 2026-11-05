@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Abdiaziz Adan",
+      "email": "abdiazizadan344@gmail.com",
+      "password": "123456789",
+      "id": "2veBaf6D2kc"
+    }
+  ],
+  "locations": [
+    {
+      "location": "Garissa",
+      "type": "Water",
+      "status": "Limited",
+      "description": "Water is available but supplies are low.",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "location": "Dadaab",
+      "type": "Pasture",
+      "status": "Available",
+      "description": "Some grazing areas remain available."
+    },
+    {
+      "id": "3",
+      "location": "Balambala",
+      "type": "Water",
+      "status": "Unavailable",
+      "description": "Water availability needs to be checked."
+    },
+    {
+      "location": "mandera",
+      "type": "Pasture",
+      "status": "Available",
+      "description": "Available",
+      "id": "KrNVWtksM1U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

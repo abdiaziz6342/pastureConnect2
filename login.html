@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PastureConnect | Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">🌿 PastureConnect</a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="areas.html">Resource Updates</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-card">
+
+            <div id="register-section">
+                <h2>Create Your Account</h2>
+                <p class="form-intro">Join the PastureConnect community.</p>
+
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="register-name">Full name</label>
+                        <input type="text" id="register-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="register-email">Email address</label>
+                        <input type="email" id="register-email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input type="password" id="register-password"
+                            minlength="8" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <p id="register-message" class="message" role="status"></p>
+                </form>
+
+                <p class="auth-switch">
+                    Already have an account?
+                    <button type="button" id="show-login">Login</button>
+                </p>
+            </div>
+
+            <div id="login-section" class="hidden">
+                <h2>Welcome Back</h2>
+                <p class="form-intro">Login to your demo account.</p>
+
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email address</label>
+                        <input type="email" id="login-email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <p id="login-message" class="message" role="status"></p>
+                </form>
+
+                <p class="auth-switch">
+                    Need an account?
+                    <button type="button" id="show-register">Register</button>
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>PastureConnect — Supporting pastoral communities.</p>
+    </footer>
+
+    <script src="/login.js"></script>
+</body>
+</html>
